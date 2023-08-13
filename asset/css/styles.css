@@ -567,7 +567,9 @@ a.scollbar-btn:hover {
 
 /* Media Query */
 @media (max-width: 575px) {  
-
+    .filter-img-white-sm{
+        filter: brightness(0) invert(1);
+    }
     .footer-wrap {
         margin-bottom: 3rem;
     }
@@ -710,7 +712,9 @@ a.scollbar-btn:hover {
 
 @media (min-width: 576px) and (max-width: 767px) {
      /* Menu */ 
-     
+     .filter-img-white-sm{
+        filter: brightness(0) invert(1);
+    }
     .navbar-nav .nav-link { 
         font-size: 14px;
         margin-left: 20px;
@@ -828,7 +832,9 @@ a.scollbar-btn:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
      /* Menu */ 
-     
+     .filter-img-white-sm{
+        filter: brightness(0) invert(1);
+    }
     .navbar-nav .nav-link { 
         font-size: 14px;
         margin-left: 20px;
