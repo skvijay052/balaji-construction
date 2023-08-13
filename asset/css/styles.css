@@ -567,6 +567,9 @@ a.scollbar-btn:hover {
 
 /* Media Query */
 @media (max-width: 575px) {  
+    .top-icon-wrapper {
+        background-size: 100%;
+    }
     .filter-img-white-sm{
         filter: brightness(0) invert(1);
     }
@@ -711,6 +714,9 @@ a.scollbar-btn:hover {
 
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .top-icon-wrapper {
+        background-size: 100%;
+    }
      /* Menu */ 
      .filter-img-white-sm{
         filter: brightness(0) invert(1);
